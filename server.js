@@ -16,14 +16,13 @@ app.use(express.urlencoded({
 app.use(express.json());
 
 // Make a static folder.
-const root = require('path').join(__dirname, 'client', 'build');
-app.use(express.static(root));
-app.use(express.static(path.join(__dirname, 'client/public')));
-
+if (process.env.NODE_ENV === "production") {
+    app.use(express.static("client/build"));
+}
 // Use the routes folder.
 app.use(routes);
 
 // Start the server.
 app.listen(PORT, function () {
-    console.log("App running on port " + PORT + "!");
+    console.log(`Server now listening on PORT ${PORT}!`);
 });
