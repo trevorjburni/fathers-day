@@ -1,0 +1,21 @@
+exports.meme = require('../assets/images/meme.PNG');
+exports.adorable = require('../assets/images/adorable.JPG'
+);
+exports.cruise = require('../assets/images/cruise.JPG');
+exports.disney = require('../assets/images/disney.jpeg');
+exports.elf = require('../assets/images/elf.JPG');
+exports.familyDisney = require('../assets/images/family-disney.jpg');
+exports.familyFun = require('../assets/images/family-fun.jpg');
+exports.familyPic = require('../assets/images/family-pic.jpg');
+exports.hardlyWorking = require('../assets/images/hardly-working.jpeg');
+exports.himHer = require('../assets/images/him-her.jpg');
+exports.hoola = require('../assets/images/hoola.jpeg');
+exports.joke = require('../assets/images/joke.jpg');
+exports.message = require('../assets/images/message.jpeg');
+exports.oldie = require('../assets/images/oldie.jpg');
+exports.smile = require('../assets/images/smile.JPG');
+exports.snowbird = require('../assets/images/snowbird.jpeg');
+exports.splash = require('../assets/images/splash.jpg');
+exports.toothless = require('../assets/images/toothless.jpeg');
+exports.trapped = require('../assets/images/trapped.jpeg');
+exports.wedding = require('../assets/images/wedding.jpg');
